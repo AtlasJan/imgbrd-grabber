@@ -1,0 +1,12 @@
+name: imgbrd-grabber
+version: git
+description: >
+  Very customizable imageboard/booru downloader with powerful filenaming features.
+  https://bionus.github.io/imgbrd-grabber/
+license: Apache-2.0
+
+apps:
+  grabber:
+    command: bin/grabber
+    autostart: imgbrd-grabber.grabber
+

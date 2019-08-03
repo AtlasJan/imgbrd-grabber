@@ -1,0 +1,4 @@
+[Desktop Entry]
+Version=1.1
+Name=imgbrd-grabber
+Exec=imgbrd-grabber.grabber %U
