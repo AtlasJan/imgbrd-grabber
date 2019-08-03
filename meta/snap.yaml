@@ -1,5 +1,6 @@
 name: imgbrd-grabber
 version: git
+base: 
 description: >
   Very customizable imageboard/booru downloader with powerful filenaming features.
   https://bionus.github.io/imgbrd-grabber/

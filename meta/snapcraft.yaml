@@ -1,5 +1,22 @@
+name: imgbrd-grabber
 parts:
   grabber:
-    - g++
-    - cmake
-    - qtbase
+    source: https://github.com/Bionus/imgbrd-grabber.git
+    source-branch: master
+    source-subdir: build
+    source-type: git
+    plugin: cmake
+    build-packages:
+      - try:
+        - gcc
+        - qt
+        - libpulsse
+      - else:
+        - g++
+        - libssl-dev
+        - qtbase5-dev
+        - qtscript5-dev
+        - qtmultimedia5-dev
+        - qttools5-dev
+        - qttools5-dev-tools
+
